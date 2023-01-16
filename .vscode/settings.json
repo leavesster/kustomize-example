@@ -3,5 +3,10 @@
         "https://json.schemastore.org/kustomization.json": [
             "*/kustomization.yaml"
         ]
-    }
+    },
+    "cSpell.words": [
+        "jsonpatch",
+        "Kustomization",
+        "kustomize"
+    ]
 }
