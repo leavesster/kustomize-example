@@ -1,0 +1,13 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+- ../base
+patches:
+  - path: strategic.yaml
+    target:
+      name: my-deployment
+      kind: Deployment
+  - path: jsonpatch.yaml
+    target:
+      name: my-deployment
+      kind: Deployment
