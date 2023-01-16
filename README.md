@@ -1,6 +1,7 @@
 # Example
 
+This example shows how to use the `kustomize` plugin to generate a Kubernetes manifest from a Kustomize
 
-```
-kubectl kustomize ./overlays -o /build.yaml
+```shell
+kubectl kustomize <DIR> -o /build.yaml
 ```
